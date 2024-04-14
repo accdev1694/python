@@ -10,11 +10,11 @@ temp = float(input("Type your temperature: "))
 # conditionals
 if unit_from == "C":
     result = temp * 32
-    print(f"Your Temperature is: {round(result, 1)}{unit_to}")
+    print(f"Your Temperature is: {round(result, 1)}°{unit_to}")
     
 elif unit_from == "F":
     result = temp / 32
-    print(f"Your Temperature is: {round(result, 1)}{unit_to}")
+    print(f"Your Temperature is: {round(result, 1)}°{unit_to}")
     
 else:
     print(f"{unit_from} is invalid! Type in a valid unit")
