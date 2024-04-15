@@ -15,8 +15,8 @@ print(response)          # (architecture), gives 12
 
     # 02: ---> find() method <---
 # this method finds the first position of any character in a string
-
-position = course.find(" ")        # finds the first occurance of a space
+# finds the first occurance of a space
+position = course.find(" ")        
 print(position)
 
     # 03: ---> last occurance rfind() or reverse-find <---
@@ -63,7 +63,7 @@ print(course.count("-"))
 
     # 11: ---> replace() method <---
 # replaces a character with some other character, 
-# it takes two arguements, seperated with comas
+# it takes two arguments, seperated with comas
 repl = course.replace("-", "/")
 print(repl)
 
