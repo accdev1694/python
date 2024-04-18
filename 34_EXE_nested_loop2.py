@@ -10,4 +10,3 @@ for char in range(rows):                # iterate over each character in rows
     for chars in range(columns):        # nest iteration of each column caharcter
         print(f"{shape}",  end='')      # print shape horizontally
     print()                             # move to next line after each iteration
-    
