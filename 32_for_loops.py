@@ -49,11 +49,11 @@ print(" ")
 # 05: ---> Iterate over a string 2 <---
 # we will create the meaning of an accronyn "LOVE"
 
-love = "LOVE"
-meaning = ["Life", "Of", "vast", "Empathy"]
+love = "LOVE"                                   # declare the love variable
+meaning = ["Life", "Of", "vast", "Empathy"]     # declare variable for the accronym 
 
-for char in range(len(love)):
-    print(f"{love[char]}: {meaning[char]}")
+for char in range(len(love)):                   # iterate through the length of the love variable and create a char variable for each index
+    print(f"{love[char]}: {meaning[char]}")     # match the indexes of the love variable to the meaning variable for each index position
     
 
 
