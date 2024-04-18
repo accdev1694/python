@@ -26,4 +26,4 @@ while time < 0:
 
 amount = principal * pow((1 + rate / 100), time)                        # A = P*(1+r/n)^t
 
-print((f"your compound Interest over {time}yrs is £{amount:.2f}"))     # round to 2 decimal places
+print((f"your compound Interest over {time}yrs is £{amount:.2f}"))      # round to 2 decimal places
