@@ -1,5 +1,5 @@
 # Email Validator Exercise
-# here we create an application to text the input for an email 
+# here we create an application to test the input for an email 
 # and ensure it is indeed an email format
 
 email = input("enter your email:")
